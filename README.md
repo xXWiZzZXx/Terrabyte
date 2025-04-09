@@ -25,6 +25,8 @@ Identification des freins à l’adoption technologique :
 
 ## Contenu du dépôt
 esp32-wroom-datasheet, important to understand how to interconnect the ESP32 with the other components.
+ZTS-3002-TR-ECTHNPK-N01 DATASHEET, important to understand how to interconnect the sensor with the other components.
+GROVE - RS485 Datasheet, important to understand how to interconnect the RS485 with the other components.
 
 ## Équipe
 Le projet est mené par 6 étudiants de l’ECE Paris, encadrés par l’équipe pédagogique.
