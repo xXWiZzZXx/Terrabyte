@@ -29,11 +29,8 @@ Identification des freins à l’adoption technologique :
 ## Équipe
 Le projet est mené par 6 étudiants de l’ECE Paris, encadrés par l’équipe pédagogique.
 Responsable du projet :  Louis Duvanel – louis.duvanel@edu.ece.fr
-collaborateurs : * Thomas Balsalobre - thomas.balsalobre@edu.ece.fr
-                 * Esteban Martin-Garcia - esteban.martingarcia@edu.ece.fr
-                 * Léo Guihard - leo.guihard@edu.ece.fr
-                 * Samuel Sidoun - samuel.sidoun@edu.ece.fr
-                 * Joseph Ahanda amie - josephcrepin.ahandaamie@edu.ece.fr
+collaborateurs : Thomas Balsalobre - thomas.balsalobre@edu.ece.fr, Esteban Martin-Garcia - esteban.martingarcia@edu.ece.fr, Léo Guihard - leo.guihard@edu.ece.fr, Samuel Sidoun - samuel.sidoun@edu.ece.fr,
+Joseph Ahanda amie - josephcrepin.ahandaamie@edu.ece.fr
 
 ## Enjeux abordés
 Régulation de la consommation d’eau
