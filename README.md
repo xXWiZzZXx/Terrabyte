@@ -24,7 +24,7 @@ Identification des freins à l’adoption technologique :
 À partir de ces constats, nous définissons les axes d’innovation qui guideront la conception d’une solution plus adaptée et durable.
 
 ## Contenu du dépôt
-
+esp32-wroom-datasheet, important to understand how to interconnect the ESP32 with the other components.
 
 ## Équipe
 Le projet est mené par 6 étudiants de l’ECE Paris, encadrés par l’équipe pédagogique.
