@@ -1,0 +1,64 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/XXXXXXXXX/resourceGroups/rg-terrabyte0904/providers/Microsoft.Storage/storageAccounts/iotstorageterrabyte0904",
+    "name": "iotstorageterrabyte0904",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "northeurope",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2025-04-08T23:14:02.8324667Z",
+            "key2": "2025-04-08T23:14:02.8324667Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "largeFileSharesState": "Enabled",
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-04-08T23:14:02.8480967Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-04-08T23:14:02.8480967Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2025-04-08T23:14:02.7230921Z",
+        "primaryEndpoints": {
+            "dfs": "https://iotstorageterrabyte0904.dfs.core.windows.net/",
+            "web": "https://iotstorageterrabyte0904.z16.web.core.windows.net/",
+            "blob": "https://iotstorageterrabyte0904.blob.core.windows.net/",
+            "queue": "https://iotstorageterrabyte0904.queue.core.windows.net/",
+            "table": "https://iotstorageterrabyte0904.table.core.windows.net/",
+            "file": "https://iotstorageterrabyte0904.file.core.windows.net/"
+        },
+        "primaryLocation": "northeurope",
+        "statusOfPrimary": "available"
+    },
+    "apiVersion": "2022-05-01"
+}

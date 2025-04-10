@@ -1,0 +1,101 @@
+{
+    "id": "/subscriptions/XXXXXXXX/resourceGroups/rg-terrabyte0904/providers/Microsoft.Devices/IotHubs/hub-terrabyte0904",
+    "name": "hub-terrabyte0904",
+    "type": "Microsoft.Devices/IotHubs",
+    "location": "northeurope",
+    "tags": {},
+    "subscriptionid": "XXXXXXXXX",
+    "resourcegroup": "rg-terrabyte0904",
+    "etag": "AAAAAAYAAAA=",
+    "properties": {
+        "locations": [
+            {
+                "location": "North Europe",
+                "role": "primary"
+            },
+            {
+                "location": "West Europe",
+                "role": "secondary"
+            }
+        ],
+        "state": "Active",
+        "provisioningState": "Succeeded",
+        "ipFilterRules": [],
+        "hostName": "hub-terrabyte0904.azure-devices.net",
+        "eventHubEndpoints": {
+            "events": {
+                "retentionTimeInDays": 1,
+                "partitionCount": 2,
+                "partitionIds": [
+                    "0",
+                    "1"
+                ],
+                "path": "iothub-ehub-hub-terrab-63852765-5a17edae8e",
+                "endpoint": "sb://ihsuproddbres013dednamespace.servicebus.windows.net/"
+            }
+        },
+        "routing": {
+            "endpoints": {
+                "serviceBusQueues": [],
+                "serviceBusTopics": [],
+                "eventHubs": [],
+                "storageContainers": []
+            },
+            "routes": [],
+            "fallbackRoute": {
+                "name": "$fallback",
+                "source": "DeviceMessages",
+                "condition": "true",
+                "endpointNames": [
+                    "events"
+                ],
+                "isEnabled": true
+            }
+        },
+        "storageEndpoints": {
+            "$default": {
+                "sasTtlAsIso8601": "PT1H",
+                "connectionString": "",
+                "containerName": ""
+            }
+        },
+        "messagingEndpoints": {
+            "fileNotifications": {
+                "lockDurationAsIso8601": "PT1M",
+                "ttlAsIso8601": "PT1H",
+                "maxDeliveryCount": 10
+            }
+        },
+        "enableFileUploadNotifications": false,
+        "cloudToDevice": {
+            "maxDeliveryCount": 10,
+            "defaultTtlAsIso8601": "PT1H",
+            "feedback": {
+                "lockDurationAsIso8601": "PT1M",
+                "ttlAsIso8601": "PT1H",
+                "maxDeliveryCount": 10
+            }
+        },
+        "features": "RootCertificateV2",
+        "deviceStreams": {
+            "streamingEndpoints": [
+                "https://db-001.northeurope-001.streams.azure-devices.net"
+            ]
+        },
+        "disableLocalAuth": false,
+        "allowedFqdnList": [],
+        "enableDataResidency": false
+    },
+    "sku": {
+        "name": "F1",
+        "tier": "Free",
+        "capacity": 1
+    },
+    "identity": {
+        "type": "None"
+    },
+    "systemData": {
+        "createdAt": "2025-04-08T23:03:11.1633333Z"
+    },
+    "apiVersion": "2021-07-02-preview"
+}

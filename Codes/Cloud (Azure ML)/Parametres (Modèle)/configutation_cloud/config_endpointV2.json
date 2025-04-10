@@ -1,0 +1,9 @@
+{
+    "subscription_id": "4eb48753-2226-4b34-8df1-ff473a98c57b",
+    "resource_group": "rg-terrabyte0904",
+    "workspace_name": "wrkspace-terrabyte0904",
+    "online_endpoint": [
+        "wrkspace-terrabyte0904",
+        "terrabyte-endpoint-10155a9f"
+    ]
+}

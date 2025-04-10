@@ -1,0 +1,7 @@
+{
+    "subscription_id": "XXXXXXXXXXX",
+    "resource_group": "rg-terrabyte0904",
+    "workspace_name": "wrkspace-terrabyte0904",
+    "online_endpoint": "terrabyte-endpoint-10155a9f",
+    "deployment_name": "red"
+}
